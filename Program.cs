@@ -7,8 +7,8 @@ namespace The_FizzBuzz_Game
     {
         static void Main(string[] args)
         {
-            FizzBuzz fisrtGame = new FizzBuzz();
-            fisrtGame.StartGame();
+            FizzBuzz firstGame = new FizzBuzz();
+            firstGame.StartGame();
         }
     }
 }
