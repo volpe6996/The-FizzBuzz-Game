@@ -30,23 +30,16 @@ namespace The_FizzBuzz_Game
 
         private string CheckInput(int input)
         {
-            if(!(input % 3 == 0) && !(input % 5 == 0))
-            {
-                return input.ToString();
-            }
-            else if(input % 15 == 0)
-            {
+            if(input % 15 == 0)
                 return "FizzBuzz";
-            }
-            else if(input % 3 == 0)
-            {
+
+            if(input % 3 == 0)
                 return "Fizz";
-            }
-            else if (input % 5 == 0)
-            {
+
+            if (input % 5 == 0)
                 return "Buzz";
-            }
-            return "";
+
+            return input.ToString();
         }
     }
 }
