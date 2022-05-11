@@ -9,7 +9,7 @@ namespace The_FizzBuzz_Game
     public class FizzBuzz
     {
         private int _inputNumber;
-        public string StartGame()
+        public void StartGame()
         {
             Console.Write("Witaj w grze FizzBuzz! Podaj jedną liczbę: ");
             while (true)
@@ -25,7 +25,6 @@ namespace The_FizzBuzz_Game
                     break;
                 }
             }
-            return "";
         }
 
         private string CheckInput(int input)
